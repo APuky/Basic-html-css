@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Google-Chrome.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="border-top">
+        <img src="google.png" alt="Google" id="image-top-left">
+    </div>
+    <div id="advanced-return-button">
+        <a href="index.html"><span class="button-top">Return to Google Search</span></a>
+    </div>
+    <div id="advanced-search-div">
+        <h1 id="advanced-search-title">Advanced search</h1>
+    </div>
+    <p id="find-pages">Find pages that have...</p>
+        <div id="text-left">
+            <p class="search-exp">all these words:</p>
+            <p class="search-exp">exactly this word or phrase:</p>
+            <p class="search-exp">any of these words:</p>
+            <p class="search-exp">none of these words:</p>
+        </div>
+        <div id="forms-right">
+            <form action="https://google.com/search">
+                <input type="text" tabindex="0" class="ad-search" name="as_q" autocomplete="off"><br>
+                <input type="text" class="ad-search" name="as_epq" autocomplete="off"><br>
+                <input type="text" class="ad-search" name="as_oq" autocomplete="off"><br>
+                <input type="text" class="ad-search" name="as_eq" autocomplete="off">
+                <div id="search-button-advanced">
+                    <button type="submit" id="button-advanced">Advanced search</button>
+                </div>
+            </form>
+        </div>
+    
+</body>
+</html>
